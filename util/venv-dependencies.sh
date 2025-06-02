@@ -251,7 +251,7 @@ source "$1/bin/activate"
 # Below this line, we are only installing into the virtualenv at "$1"
 
 # fix command to install old pip
-https://github.com/StreisandEffect/streisand/issues/1835#issuecomment-782943439
+# https://github.com/StreisandEffect/streisand/issues/1835#issuecomment-782943439
 our_pip_install --upgrade 'pip < 21.0'
 
 # The pip we want should be in our path now. Make sure we use it.
